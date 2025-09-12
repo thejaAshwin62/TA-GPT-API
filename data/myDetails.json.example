@@ -1,0 +1,38 @@
+{
+  "Profile": {
+    "heading": "Personal Information"
+  },
+  "Education Background": {
+    "heading": "Educational Qualifications"
+  },
+  "Work Experience": {
+    "heading": "Professional Experience"
+  },
+  "Technical Skills": {
+    "heading": "Technical Expertise"
+  },
+  "Projects": {
+    "heading": "Projects"
+  },
+  "Achievements and Awards": {
+    "heading": "Achievements & Awards"
+  },
+  "Certifications and Training": {
+    "heading": "Certifications & Training"
+  },
+  "Testimonials and Feedback": {
+    "heading": "Testimonials & Feedback"
+  },
+  "Open Source Contributions": {
+    "heading": "Open Source Contributions"
+  },
+  "Personal Interests": {
+    "heading": "Personal Interests"
+  },
+  "Languages": {
+    "heading": "Languages Known"
+  },
+  "Contact Links": {
+    "heading": "Contact Information"
+  }
+}
