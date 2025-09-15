@@ -7,6 +7,7 @@ ENV PYTHONUNBUFFERED=1
 ENV PIP_NO_CACHE_DIR=1
 ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 
+
 # Install only essential system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     gcc \
@@ -32,8 +33,8 @@ RUN apt-get purge -y gcc g++ && \
     apt-get autoremove -y && \
     rm -rf /root/.cache/pip
 
-# Expose Streamlit port
-EXPOSE 8501
+# Expose fastapi port
+EXPOSE 8000
 
 # Run Streamlit
-CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.headless=true"]
+CMD ["uvicorn", "fast:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

@@ -1,0 +1,28 @@
+# Core API framework
+fastapi==0.109.2
+uvicorn[standard]==0.23.2
+pydantic==2.5.2
+python-dotenv==1.0.0
+
+# Vector database
+pinecone-client==5.0.0
+
+# Google GenAI
+google-genai
+
+# Essential ML dependencies (CPU-only)
+torch  # Installed separately in Dockerfile
+sentence-transformers==2.2.2
+huggingface_hub==0.17.3  # Compatible version for sentence-transformers 2.2.2
+
+# Core NLP dependencies (automatically installed with sentence-transformers)
+# transformers==4.40.2  # Already included with sentence-transformers
+# tokenizers==0.19.1    # Already included with sentence-transformers
+# numpy==1.24.4         # Already included with sentence-transformers
+
+# Text processing
+langchain==0.0.329
+
+
+# Optional: Remove if not using specific langchain text splitting
+# You can implement simple text splitting without langchain to save more space

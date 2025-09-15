@@ -1,0 +1,251 @@
+{
+  "profile": {
+    "type": "personal_information",
+    "content": "Theja Ashwin is a Computer Science graduate from Mahendra Institute of Technology (2021-2025). He is an Indian citizen based in India with email thejaashwin62@gmail.com and phone 9360067452. His portfolio is available at https://thejaashwin.me. He is a full stack developer with expertise in React, Node.js, and cloud technologies, passionate about innovation and problem-solving.",
+    "summary": "Theja Ashwin, CS graduate, full-stack developer with React, Node.js, and cloud expertise.",
+    "metadata": {
+      "category": "personal_info",
+      "keywords": ["name", "contact", "location", "summary", "background"],
+      "tags": ["personal", "developer", "fullstack"],
+      "relevance_score": 1.0
+    }
+  },
+  "education_background": {
+    "type": "educational_qualifications",
+    "content": [
+      "Bachelor of Engineering (BE) in Computer Science from Mahendra Institute of Technology (2021-2025)",
+      "Board of Higher Education from St. John's Matriculation Higher Secondary School (2020-2021)"
+    ],
+    "summary": "BE in Computer Science, completed schooling at St. John's Matriculation HSS.",
+    "metadata": {
+      "category": "education",
+      "keywords": [
+        "degree",
+        "college",
+        "university",
+        "qualification",
+        "computer science"
+      ],
+      "tags": ["education", "degree"],
+      "relevance_score": 0.8
+    }
+  },
+  "work_experience": {
+    "type": "professional_experience",
+    "content": [
+      {
+        "role": "Web Developer Intern",
+        "company": "Neuron.ai",
+        "duration": "Oct 2024 - Nov 2024",
+        "mode": "Remote",
+        "responsibilities": [
+          "Built a teacher-student appointment scheduling app using React, Node.js, Express.js, and MongoDB"
+        ]
+      },
+      {
+        "role": "Mobile App Developer",
+        "company": "Imagecon Academy",
+        "responsibilities": [
+          "Developed mobile apps using Android Studio, Flutter, and Dart Language"
+        ]
+      }
+    ],
+    "summary": "Interned at Neuron.ai and Imagecon Academy, working on web and mobile development.",
+    "metadata": {
+      "category": "experience",
+      "keywords": [
+        "intern",
+        "web developer",
+        "mobile developer",
+        "react",
+        "nodejs",
+        "mongodb"
+      ],
+      "tags": ["experience", "internship", "developer"],
+      "relevance_score": 0.9
+    }
+  },
+  "technical_skills": {
+    "type": "technical_expertise",
+    "content": [
+      "Programming Languages: Core Java, JavaScript",
+      "Frontend: ReactJs, TailwindCSS",
+      "Backend: SpringBoot, NodeJs, ExpressJs",
+      "Databases: MongoDB, PostgreSQL, SQL",
+      "ORMS: Prisma ORM, JPA",
+      "Tools: Git, GitHub, Postman, Docker, AWS (EB, RDS, ECS), Netlify, Render, Vercel, VS Code",
+      "Platforms: Unity3D, Blender",
+      "Currently learning: AI/ML - RAG, Microservices, Kubernetes"
+    ],
+    "summary": "Full stack developer with frontend, backend, databases, tools, and cloud skills.",
+    "metadata": {
+      "category": "skills",
+      "keywords": [
+        "programming",
+        "frontend",
+        "backend",
+        "database",
+        "tools",
+        "aws",
+        "docker"
+      ],
+      "tags": ["skills", "technical", "fullstack"],
+      "relevance_score": 1.0
+    }
+  },
+  "projects": [
+    {
+      "name": "Mind Sync",
+      "type": "wearable_ai",
+      "description": "Lightweight wearable project using ESP32-CAM and LLMs to capture visual data and generate natural language summaries for smart memory recall.",
+      "tech_stack": [
+        "MongoDB",
+        "Node.js",
+        "React",
+        "Express",
+        "Tailwind",
+        "Hugging Face"
+      ],
+      "features": ["Low-power operation", "Edge-first processing"],
+      "source": "https://github.com/thejaAshwin62/MindSync",
+      "live_demo": "https://mind-sync-eight.vercel.app/",
+      "metadata": {
+        "tags": ["wearable", "AI", "memory"],
+        "relevance_score": 0.9
+      }
+    },
+    {
+      "name": "Mock AI Interviewer",
+      "type": "ai_interview_platform",
+      "description": "AI-driven interview simulation platform enhancing skills with real-time video integration and detailed feedback.",
+      "tech_stack": ["Next.js", "Tailwind", "Gemini"],
+      "source": "https://github.com/thejaAshwin62/mock-ai",
+      "live_demo": "https://mock-ai-snowy.vercel.app/",
+      "metadata": {
+        "tags": ["AI", "interview", "platform"],
+        "relevance_score": 0.9
+      }
+    },
+    {
+      "name": "AiPPY",
+      "type": "ai_interview_platform",
+      "description": "AI-powered platform to help users prepare for interviews and highlight strengths.",
+      "tech_stack": [
+        "Spring",
+        "React",
+        "Node.js",
+        "Express",
+        "Tailwind",
+        "Gemini"
+      ],
+      "source": "https://github.com/thejaAshwin62/Aippy-Client",
+      "live_demo": "https://aipply.onrender.com/",
+      "metadata": {
+        "tags": ["AI", "interview", "platform"],
+        "relevance_score": 0.9
+      }
+    },
+    {
+      "name": "Teacher Connect",
+      "type": "education_platform",
+      "description": "Web app for teacher-student appointment scheduling.",
+      "tech_stack": ["MongoDB", "Node.js", "React", "Express", "Tailwind"],
+      "source": "https://github.com/thejaAshwin62/Teacher_Connect",
+      "live_demo": "https://teacher-connect.onrender.com/",
+      "metadata": {
+        "tags": ["education", "appointment"],
+        "relevance_score": 0.8
+      }
+    },
+    {
+      "name": "Smart Mirror",
+      "type": "iot",
+      "description": "Interactive smart mirror with voice control, weather updates, and calendar integration.",
+      "tech_stack": ["JavaScript", "Kali Linux"],
+      "awards": ["3rd place at Intercollege Hackathon"],
+      "source": "https://github.com/thejaAshwin62/Smart-Mirror",
+      "metadata": { "tags": ["IoT", "smart mirror"], "relevance_score": 0.9 }
+    },
+    {
+      "name": "AR Appliances",
+      "type": "augmented_reality",
+      "description": "AR app to visualize home appliances in space.",
+      "tech_stack": ["Unity"],
+      "awards": ["Third round MSME Government of India Idea Hackathon"],
+      "metadata": { "tags": ["AR", "Unity"], "relevance_score": 0.8 }
+    },
+    {
+      "name": "Odyssey Journey",
+      "type": "event_booking",
+      "description": "Platform to book and manage ship events.",
+      "tech_stack": ["Tailwind", "Node.js", "Express", "MongoDB", "React"],
+      "source": "https://github.com/thejaAshwin62/Odyssey-Journey",
+      "metadata": { "tags": ["events", "booking"], "relevance_score": 0.7 }
+    },
+    {
+      "name": "EA Infinity",
+      "type": "esports",
+      "description": "Platform for booking and participating in esports tournaments.",
+      "tech_stack": ["Tailwind", "Node.js", "Express", "MongoDB", "React"],
+      "source": "https://github.com/thejaAshwin62/EA-Infinity",
+      "live_demo": "https://ea-infinity.onrender.com",
+      "metadata": { "tags": ["esports", "gaming"], "relevance_score": 0.7 }
+    },
+    {
+      "name": "Jobify",
+      "type": "job_tracking",
+      "description": "Job tracking application for field service operations.",
+      "tech_stack": ["Node.js", "MongoDB", "Express", "React"],
+      "source": "https://github.com/thejaAshwin62/Jobify_MERN",
+      "live_demo": "https://jobify-mern-bubi.onrender.com/",
+      "metadata": { "tags": ["job", "tracking"], "relevance_score": 0.7 }
+    },
+    {
+      "name": "Tinger",
+      "type": "text_mining",
+      "description": "Extracts news/articles from URLs, summarizes and optionally translates content using GPT.",
+      "tech_stack": ["React", "Gemini"],
+      "source": "https://github.com/thejaAshwin62/Tinger",
+      "live_demo": "https://tinger-finity.netlify.app/",
+      "metadata": {
+        "tags": ["text mining", "news summarization"],
+        "relevance_score": 0.7
+      }
+    }
+  ],
+  "achievements_awards": [
+    "3rd Place for Smart Mirror project at Mahendra Educational Institutions Catch-24 Hackathon",
+    "Top 8 Teams selection at Christ University ARDC's Cyber Security Hackathon",
+    "Third Round Qualification at MSME Government of India Idea Hackathon for AR Appliances project"
+  ],
+  "certifications_training": [
+    "Java Full Stack certification from TalentNext (Oct-Dec 2024)",
+    "Web Development Internship from Imagecon",
+    "Docker: The Practical Guide from Udemy",
+    "Full Stack Development Workshop from Sona College of Technology"
+  ],
+  "testimonials_feedback": [
+    "Smart Mirror project earned 3rd place at Intercollege Hackathon",
+    "Project selected as Top 8 at Indian Cyber Security Hackathon",
+    "AR Appliances project selected for third round of Government Hackathon"
+  ],
+  "open_source_contributions": [
+    "mernboot npm package (https://github.com/thejaAshwin62/mernboot)",
+    "mernfinity npm package (https://github.com/thejaAshwin62/mernfinity-npm-package)"
+  ],
+  "personal_interests": [
+    "Web Development Research",
+    "Game Development",
+    "AR/VR technologies",
+    "3D Animation Technologies"
+  ],
+  "languages": ["Tamil", "English"],
+  "contact_links": {
+    "email": "thejaashwin62@gmail.com",
+    "phone": "9360067452",
+    "portfolio": "https://thejaashwin.me",
+    "linkedin": "https://www.linkedin.com/in/theja-ashwin-632367289",
+    "github": "https://github.com/thejaAshwin62",
+    "profile_picture": "https://res.cloudinary.com/dhhgw0who/image/upload/v1753940785/myimg_jxtylp.jpg"
+  }
+}
